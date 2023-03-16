@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXAudioBLWrapper",
 				dependencies: [
 					"GXAudioBL",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .iOS, .watchOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXAudioBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-1.0.0-beta+20230315182831.xcframework.zip",
-			checksum: "d02bd1fdf7140cc15c160c3f3c362bfb56d3d3d4308dae2fc926293ae092841c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-1.0.0-beta+20230316142352.xcframework.zip",
+			checksum: "2710f1f73fbc732f4b68c8c877fe48aa6656d454d13133d2711b3505c6a7a4c5"
 		)
 	]
 )
