@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXAudioBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-1.0.0-beta+20230428202437.xcframework.zip",
-			checksum: "de088aa14040e112a9c958ddca60da71296f20b4c77fb549880400f9d0388402"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-1.0.0-beta+20230502131235.xcframework.zip",
+			checksum: "814b33a8b819753eb3d6753782bb9a61531e38795eea6246eaf0a615c038dff7"
 		)
 	]
 )
