@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXAudioBLWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "2.2.0-beta.24")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "2.2.0-beta.25")
 	],
 	targets: [
 		.target(name: "GXAudioBLWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXAudioBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-2.2.0-beta.24.xcframework.zip",
-			checksum: "dcce5f574032f23350bb7bfc169c335520793eadd9ad699315bc5a847b039925"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXAudioBL-2.2.0-beta.25.xcframework.zip",
+			checksum: "f8e370703b58d06646af2c94d68fc5c0e25a9ff5a17a17e8ca02221e4a31b4bc"
 		)
 	]
 )
